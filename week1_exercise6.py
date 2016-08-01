@@ -46,7 +46,10 @@ print json.dumps(test_list)
 
 # save the list with json
 with open ("week1_6_json.jsn", "w") as g:
-  g.write(json.dump(test_list,g))
+  json.dump(test_list,g)
 
+# add some newlines
+print ""
+print ""
 
 
